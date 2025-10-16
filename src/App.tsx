@@ -2,12 +2,26 @@ import React from 'react'
 import './index.css'
 import Navbar from './containers/Navbar'
 import Hero from './containers/Hero'
+import About from './containers/About'
+import { useState } from 'react'
 
 const App = () => {
+
   return (
-    <div>
+    <div className="">
       <Navbar/>
-      <Hero/>
+      
+      <section id="home">
+        <Hero />
+      </section>
+
+      <section id="about">
+        <About />
+      </section>
+
+      <section id="projects">
+        
+      </section>
     </div>
   )
 }
