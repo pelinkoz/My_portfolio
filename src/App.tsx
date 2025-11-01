@@ -3,6 +3,8 @@ import './index.css'
 import Navbar from './containers/Navbar'
 import Hero from './containers/Hero'
 import About from './containers/About'
+import MyProjects from './containers/MyProjects'
+import Contact from './containers/Contact'
 import { useState } from 'react'
 
 const App = () => {
@@ -20,7 +22,11 @@ const App = () => {
       </section>
 
       <section id="projects">
-        
+        <MyProjects/>
+      </section>
+
+      <section id="contact">
+        <Contact/>
       </section>
     </div>
   )
