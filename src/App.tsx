@@ -5,6 +5,7 @@ import Hero from './containers/Hero'
 import About from './containers/About'
 import MyProjects from './containers/MyProjects'
 import Contact from './containers/Contact'
+import Footer from './containers/Footer'
 import { useState } from 'react'
 
 const App = () => {
@@ -28,6 +29,11 @@ const App = () => {
       <section id="contact">
         <Contact/>
       </section>
+      
+      <section>
+        <Footer/>
+      </section>
+      
     </div>
   )
 }
