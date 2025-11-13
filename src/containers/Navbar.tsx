@@ -13,7 +13,6 @@ const Navbar = () => {
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="flex h-20 items-center justify-between">
                 <button className='flex' onClick={()=>scrollSection("home")}>
-                    <img className="h-5 w-auto" src="images/logo.png" alt="Logo" />
                     <span className="text-white text-2xl font-bold ml-2">Portfolio</span>
                 </button>
                 <div className='flex space-x-4'>

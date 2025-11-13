@@ -3,22 +3,22 @@ import React from 'react'
 const skills = [
   {
     title: 'Frontend',
-    items: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js'],
+    items: ['React', 'TypeScript', 'Tailwind CSS', 'HTML', 'CSS'],
     gradient: 'from-purple-500 to-violet-600'
   },
   {
-    title: 'Backend',
-    items: ['Node.js', 'PostgreSQL', 'Express', 'REST APIs'],
+    title: 'Backend & Databases',
+    items: ['Python', 'Node.js', 'PostgreSQL', 'MySQL', 'REST APIs'],
     gradient: 'from-violet-500 to-purple-600'
   },
   {
-    title: 'Tools',
-    items: ['Git', 'Docker', 'AWS', 'CI/CD'],
+    title: 'AI & Data',
+    items: ['Machine Learning', 'Deep Learning', 'PyTorch', 'TensorFlow', 'Data Analysis'],
     gradient: 'from-pink-500 to-purple-600'
   },
   {
-    title: 'Design',
-    items: ['UI/UX', 'Figma', 'Responsive', 'Accessibility'],
+    title: 'Tools & DevOps',
+    items: ['Git', 'Docker', 'PySide6', 'Kafka', 'CI/CD'],
     gradient: 'from-pink-500 to-violet-600'
   },
 ];
