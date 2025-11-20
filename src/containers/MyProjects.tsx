@@ -1,4 +1,3 @@
-import React from 'react'
 import rice from '../images/rice.jpg';
 import bigdata from '../images/bigdata.jpeg';
 import portfolyo from '../images/portfolyo.jpeg';

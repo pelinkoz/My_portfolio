@@ -1,5 +1,3 @@
-import React from 'react' 
-
 const Navbar = () => {
     const scrollSection=(id:any)=>{
         const section = document.getElementById(id);
