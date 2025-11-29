@@ -28,8 +28,8 @@ const About = () => {
         <h1 className='text-5xl py-20 font-bold'><span className='bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent'>About Me</span></h1>
       </div>
 
-      <div className='flex'>
-        <div className='w-1/2 flex flex-col ml-5 px-10 items-center justify-center'>
+      <div className='flex flex-col md:flex-row'>
+        <div className='w-full md:w-1/2 px-5 md:px-10 py-5 flex flex-col ml-5 px-10 items-center justify-center'>
           <p className='text-[18px] text-white/80'>
           Hi! I’m Pelin Koz, a Computer Engineering graduate from Çankaya University. I’m passionate about developing efficient, user-focused software and exploring how technology can solve real-world problems. During my academic journey and internships, I gained experience with Python, React, and SQL, working on both frontend and backend development.
           </p>
@@ -38,7 +38,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className='w-1/2 flex flex-wrap gap-6 items-start justify-center'>
+        <div className='w-full md:w-1/2 flex flex-wrap gap-6 py-6 items-start justify-center'>
           {skills.map((skill,index)=>
             <div
               key={index} className={`w-64 p-6 rounded-2xl text-white bg-gradient-to-br ${skill.gradient} shadow-lg transform transition-transform duration-300 hover:scale-105`}>
